@@ -33,19 +33,19 @@ path('archive/', views.archive, name='archive-data')
 If you need to use something similar to the url template tag in your code.
 you can use any of the following to reverse the URL:
 //using the named URL
-reverse('archive-data')
+<br/>reverse('archive-data')
 
 - resolve()
 The resolve() function can be used for resolving URL paths to the corresponding view functions.
-match = resolve('archive/')
+<br/>match = resolve('archive/')
 
 
 Use of assert
 - assert True # nothing happens
-assert 5 > 2
+<br/>assert 5 > 2
 
 - assert False # exception raise
-assert 2 > 5
+<br/>assert 2 > 5
 
 
 Use RequestFactory
