@@ -1,0 +1,15 @@
+.idea/
+
+# Unit test / coverage reports
+htmlcov/
+.coverage
+.coverage.*
+
+# pyenv
+.python-version
+
+# Environments
+.env
+.venv
+env/
+venv/
